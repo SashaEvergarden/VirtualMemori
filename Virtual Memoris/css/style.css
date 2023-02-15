@@ -1,0 +1,11 @@
+/*Logo centrado*/
+.logo{
+ 	display:block;
+ 	margin: auto;
+}
+
+/*Menu centrado*/
+.ul{
+margin:0;
+padding:0;
+}
