@@ -5,7 +5,39 @@
 }
 
 /*Menu centrado*/
-.ul{
-margin:0;
-padding:0;
-}
+  nav{
+       height: auto;
+       text-align: center;
+     }
+
+     nav ul{
+        list-style: none;
+        display: inline-block;
+        padding:18px;
+     }
+/*posision del menu*/
+     nav ul li{
+         float: left;
+         margin-top: -20px;
+     }
+/*estetica del menu*/
+     nav ul li a {
+         color: black;
+         font-family: "Poppins", Sans-serif;
+         text-decoration: none;
+         font-size: 20px;
+         padding: 18px;
+     /*pintar letras al momento de pasar el cursor*/
+     }
+
+     nav ul li a:hover{
+       color: #F50057;
+       cursor: pointer;
+     }
+
+     .Caja { 
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px; 
+        font-weight: 400; 
+        color: #ffffff; 
+        background:#ee0467 }
